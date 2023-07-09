@@ -3,9 +3,93 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Resume</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>My CV</h1>
+<header>
+	<img src="img/foto1.png" alt="foto">
+	<div class="nameis">
+		<h1 class="myname">Oleksandr Pavlenko</h1>
+		<h2 class="proffesional">Frontend Developer</h2>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#contacts">Contacts</a></li>
+			<li><a href="#summary">Summary</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#code">Code</a></li>
+			<li><a href="#courses">Courses</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#english">English</a></li>
+		</ul>
+	</nav>
+</header>
+<main class="main">
+	<section id="contacts" class="contacts">
+		<h2>CONTACTS</h2>
+		<ul>
+			<li><a href="mailto:revelesk1@gmail.com">Email: revelesk1@gmail.com</a></li>
+			<li><a href="https://github.com/revelesk">Github: github.com/revelesk</a></li>
+			<li>Discord: revelesk#9635</li>
+		</ul>
+	</section>
+	<section id="summary" class="summary">
+		<h2>SUMMARY</h2>
+		<p>Hello! I am an aspiring web developer who got my knowledge and skills from the internet and YouTube tutorials.</p>
+			<p>I am passionate about creating beautiful and functional websites and I am constantly learning new technologies and development methods.</p>
+			<p>I am always ready for new challenges and constantly looking for opportunities to develop my skills and experience.</p>
+	</section>
+	<section id="skills" class="skills">
+		<h2>SKILLS</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		</ul>
+	</section>
+	<section id="code" class="code">
+		<h2>CODE</h2>
+		<pre>
+var countBits = function(n) {
+let count = 0;
+while (n > 0) {
+if (n % 2 === 1) {
+count++;
+}
+n = Math.floor(n / 2);
+}
+return count;
+};
+		</pre>
+	</section>
+	<section id="courses" class="courses">
+		<h2>COURSES</h2>
+		<p>I am currently taking classes - "Freelancer for life"</p>
+	</section>
+	<section id="projects" class="projects">
+		<h2>PROJECTS</h2>
+		<ul>
+			<li><a href="https://revelesk.github.io/rsschool-cv/cv">CV#1. Markdown & Git</a></li>
+			<li><a href="https://github.com/revelesk/rsschool-cv/tree/rsschool-cv-html">CV#2. HTML, CSS & Git Basics</a></li>
+		</ul>
+	</section>
+	<section id="education" class="education">
+		<h2>EDUCATION</h2>
+		<p>I am currently studying at Rsshool</p>
+	</section>
+	<section id="english" class="english">
+		<h2>ENGLISH</h2>
+		<p>My English level is A2</p>
+	</section>
+</main>
+<footer class="footer">
+	<ul>
+		<li>2023</li>
+		<li><a href="https://github.com/revelesk">My Github</a></li>
+		<li><a href="https://rs.school/js/"><img src="img/rs_school_js.png" alt="logo RS"></a></li>
+	</ul>
+</footer>
 </body>
 </html>
